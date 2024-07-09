@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+    background-color: whitesmoke;
+}
+
+h2 {
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+}
+
+#title {
+	background-image: linear-gradient(to bottom right, #818cf8, #22d3ee);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-color: #818cf8;
+	color: transparent;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-con{
+    width: 20vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.i1{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 3px;
+    margin: 4px;
+    margin-bottom: 20px;
+}
+
+.div1{
+    margin: 7px;
+    display: flex;
+    justify-content:space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+#rm{
+    font-size: small;
+}
+
+#fp{
+    font-size: small;
+}
+
+.button{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 3px;
+    margin: 4px;
+    color: white;
+    background-color: blue;
+}
+
+.div3{
+    text-align: center;
+}
+
+.div4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.but{
+    width: 9vw;
+    height: 6vh;
+    border-radius: 8px;
+    margin: auto 12px;
+}
+
+.div5{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.ca{
+    margin-top: 15px;
+}
+
+#para2{
+    margin-top: 0px;
+}
+
+.but img{
+    height: 5vh;
+}
