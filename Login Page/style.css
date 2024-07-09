@@ -63,7 +63,7 @@ a{
 .button{
     width: 20vw;
     height: 4vh;
-    border-radius: 3px;
+    border-radius: 5px;
     margin: 4px;
     color: white;
     background-color: blue;
@@ -101,4 +101,31 @@ a{
 
 .but img{
     height: 5vh;
+}
+
+@media screen and (max-width:450px){
+    .main-con{
+        width: 70vw;
+        height: 50vh;
+        padding: 20px;
+        border-radius: 9px;
+    } 
+
+    .i1{
+        width: 65vw;
+    }
+
+    .but{
+        width: 30vw;
+        height: 4vh;
+    }
+
+    .but img{
+        height: 4vh;
+    }
+
+    .div2{
+        display: flex;
+        justify-content: center;
+    }
 }
