@@ -30,5 +30,4 @@ form.addEventListener('submit',function(e){
             weight_guide.innerHTML="Over Weight !";
         }
     }
-    // weight_guide.innerHTML="BMI Weight Guide";
 });
